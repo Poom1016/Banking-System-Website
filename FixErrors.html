@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorials</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+	<link rel="stylesheet" href="tutorials.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html"><img class="logo"src="image/BS2.svg" alt="logo" ></a> 
+        <nav>
+            <ul class="nav_links">
+                <li><a href="tutorials.html" id="TUTS" >Tutorials</a></li>
+                <li><a href="#" id="ERRC">Error Codes</a></li>
+                <li><a href="https://www.github.com/Poom1016/BankingSystemGUI">Github Source</a></li>
+            </ul>
+        </nav>
+    
+</header>
+
+<br>
+
+<div class="wrapper">
+	
+ <nav id="sidebar">
+ 	
+ 	 <div class="sidebar-header">
+ 	 	<h3>Tutorials</h3>
+ 	 </div>
+ 	 <ul class="lisst-unstyled components">
+
+ 	 	<p>Banking System</p>
+ 	 	<li>
+              
+ 	 		<a href="#fileSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">File</a>
+ 	 	  <ul class="collapse list-unstyled" id="fileSubmenu">
+ 	 	  	<li>
+ 	 	  		<a href="openaccount.html">Open Account</a>
+ 	 	  	</li>
+ 	 	  	<li>
+ 	 	  		<a href="closeaccount.html">Close Account</a>
+ 	 	  	</li>
+
+ 	 	  </ul>
+ 	 	</li>
+ 	 	<li>
+              <a href="#editSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Edit</a>
+              <ul class="collapse list-unstyled" id="editSubmenu">
+                <li>
+                    <a href="Deposit.html">Deposit</a>
+                </li>
+                <li>
+                    <a href="Withdraw.html">Withdraw</a>
+                </li>
+              </ul>
+ 	 	</li>
+ 	 	<li>
+ 	 		<a href="#viewSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">View</a>
+ 	 		<ul class="collapse list-unstyled" id="viewSubmenu">
+ 	 			<li>
+ 	 				<a href="#">All Accounts</a>
+ 	 			</li>
+ 	 			<li>
+                      <a href="#beSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Balance Enquiry</a>
+                      <ul class="collapse list-unstyled" id="beSubmenu">
+                        <li>
+                            <a href="#">Give ID</a>
+                        </li>
+                        <li>
+                            <a href="#">Give Account Number</a>
+                        </li>
+                      </ul>
+ 	 			</li>
+ 	 			
+
+ 	 		</ul>
+ 	 	</li>
+
+ 	 	 	 	<li>
+                    <a href="#helpSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Help</a>
+                    <ul class="collapse list-unstyled" id="helpSubmenu">
+                        <li>
+                            <a href="Tuts.html">Tutorials</a>
+                        </li>
+                        <li>
+                            <a href="#aboutSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">About</a>
+                            <ul class="collapse list-unstyled" id="aboutSubmenu">
+                                <li>
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="aboutcreator.html">About Creator</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                  </li>
+                  
+                  <li class="liactive">
+                    <a href="FixErrors.html">Fix Errors</a>
+                </li>
+
+         
+
+ 	 </ul>
+ </nav>
+
+
+<div id="content">
+	
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  	<div class="container-fluid">
+  		<button type="button" id="sidebarCollapse" class="btn  btn-info">
+  			<i class="fas fa-align-left"></i>
+  			<span>Toggle List</span>
+  			
+  		</button>
+  	</div>
+  	  </nav>
+
+<br><br>
+    <h2>Fix Errors in Banking System by Siwakorn</h2>
+    
+    <p>Errors can occur when a user toggles a Account Function but has not created and account or enters the wrong account Number or ID</p>
+
+        <br>
+        <p>To Fix Errors when toggling a function but the program freezes: <br>1. You Can Delete the System.data file</p>
+        <br>
+        <img src="image/FixError1.png" alt="">
+
+        <br><br>
+        <p>2. You Can Remove all zeros from the file</p>
+        <br>
+        <img src="image/FixError2.png" alt="">
+        <br>
+        <img src="image/FixError3.png" alt="">
+
+        <br><br>
+        <p style="color:crimson;"><strong>Note: The duplicate of the last account in View all Accounts is not an error, but a bug. I am currently working on fixing it</strong></p>
+
+        <br><br>
+
+        <p>Some other errors will close the app, but will not damage anything. The only way to fix that is to create an account or enter the correct Account Number or ID</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+
+$(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+
+</script>
+
+
+</body>
+</html>
